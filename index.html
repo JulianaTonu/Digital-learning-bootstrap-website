@@ -62,7 +62,7 @@
 digital cover 
 ........... -->
       
-<div id=" carouselExampleControls " class="container carousel slide mb-5" data-bs-ride="carousel">
+<div id=" carouselExampleControls " class=" carousel slide  mb-5" data-bs-ride="carousel">
     <div class="row carousel-inner">
        
       <div class="carousel-item active col-sm-12 col-md-12">
@@ -207,12 +207,45 @@ Register
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
       </div>
      
+
+      
+<!-- Button trigger modal -->
+      
       <div class="col-lg-3 col-md-4 ">
-        <a href="register.html"><button class=" btn btn-light text-primary px-4 fw-semibold fs-5 flex-end ">Register Now</button></a>
+        <button type="button" class="btn btn-light text-primary px-4 fw-semibold fs-5 flex-end" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Register Now
+          </button>
         
       </div>
     </div>
   </div>
+
+
+
+
+
+ 
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="staticBackdropLabel">Ready to join?</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      For register the course you need to read about the course.if you already know then you can go for next to register.
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <a href="register.html"><button type="button" class="btn btn-primary">Next</button></a>
+    </div>
+  </div>
+</div>
+</div>
+
 
 
   <!-- ................. 
