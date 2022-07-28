@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&family=Inter:wght@300&family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&family=Inter:wght@300&family=Lobster+Two:ital@1&family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+footer{
+ 
+    font-family: 'Lobster   ',sens-serif ;
+    color: rgb(188, 186, 186);
 }
