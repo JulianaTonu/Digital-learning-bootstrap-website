@@ -11,6 +11,15 @@ footer{
 }
 
 @media screen and (max-width:767px){
+    .carousel-caption h1{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .carousel-caption p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 5px;
+    }
     #card{
         display: flex;
         flex-direction: column;
