@@ -9,3 +9,14 @@ footer{
     font-family: 'Lobster   ',sens-serif ;
     color: rgb(188, 186, 186);
 }
+
+@media screen and (max-width:767px){
+    #card{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #card-body{
+        padding: 10px 10px;
+    }
+}
